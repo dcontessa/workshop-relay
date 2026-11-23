@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "providerId": "fieldwork",
+  "version": 1,
+  "fictionalFixture": true,
+  "publishedAt": "2026-11-23T00:00:00Z",
+  "validUntil": "2027-02-01T00:00:00Z",
+  "offers": [
+    {
+      "location": "Kuala Lumpur",
+      "topics": [
+        "Practical AI at work"
+      ],
+      "facilities": [],
+      "currency": "MYR",
+      "feesMinor": 0,
+      "priceBasis": "whole-workshop",
+      "available": true,
+      "id": "T1",
+      "kind": "trainer",
+      "title": "Practical AI workshop",
+      "provider": "Fieldwork Academy",
+      "description": "Hands-on tools for everyday work",
+      "capacity": 32,
+      "dates": [
+        "2026-12-17",
+        "2026-12-18"
+      ],
+      "priceMinor": 280000
+    },
+    {
+      "location": "Kuala Lumpur",
+      "topics": [
+        "Practical AI at work",
+        "Team communication"
+      ],
+      "facilities": [],
+      "currency": "MYR",
+      "feesMinor": 0,
+      "priceBasis": "whole-workshop",
+      "available": true,
+      "id": "T2",
+      "kind": "trainer",
+      "title": "AI for bigger teams",
+      "provider": "Fieldwork Academy",
+      "description": "A facilitated workshop for larger groups",
+      "capacity": 40,
+      "dates": [
+        "2026-12-17"
+      ],
+      "priceMinor": 320000
+    }
+  ]
+}

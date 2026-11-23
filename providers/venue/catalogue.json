@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "providerId": "common-ground",
+  "version": 1,
+  "fictionalFixture": true,
+  "publishedAt": "2026-11-23T00:00:00Z",
+  "validUntil": "2027-02-01T00:00:00Z",
+  "offers": [
+    {
+      "location": "Kuala Lumpur",
+      "topics": [],
+      "facilities": [
+        "step-free",
+        "projector"
+      ],
+      "currency": "MYR",
+      "feesMinor": 0,
+      "priceBasis": "whole-workshop",
+      "available": true,
+      "id": "V1",
+      "kind": "venue",
+      "title": "Studio One",
+      "provider": "Common Ground Studio",
+      "description": "A bright, flexible workshop space",
+      "capacity": 40,
+      "dates": [
+        "2026-12-17"
+      ],
+      "priceMinor": 150000
+    },
+    {
+      "location": "Kuala Lumpur",
+      "topics": [],
+      "facilities": [
+        "step-free",
+        "projector"
+      ],
+      "currency": "MYR",
+      "feesMinor": 0,
+      "priceBasis": "whole-workshop",
+      "available": true,
+      "id": "V2",
+      "kind": "venue",
+      "title": "The Garden Room",
+      "provider": "Common Ground Studio",
+      "description": "A quieter space with room to collaborate",
+      "capacity": 35,
+      "dates": [
+        "2026-12-17",
+        "2026-12-18"
+      ],
+      "priceMinor": 190000
+    },
+    {
+      "location": "Kuala Lumpur",
+      "topics": [],
+      "facilities": [
+        "projector"
+      ],
+      "currency": "MYR",
+      "feesMinor": 0,
+      "priceBasis": "whole-workshop",
+      "available": true,
+      "id": "V3",
+      "kind": "venue",
+      "title": "The Meeting Loft",
+      "provider": "Common Ground Studio",
+      "description": "A compact room for smaller groups",
+      "capacity": 20,
+      "dates": [
+        "2026-12-17"
+      ],
+      "priceMinor": 120000
+    }
+  ]
+}

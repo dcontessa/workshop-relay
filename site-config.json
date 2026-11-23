@@ -1,0 +1,4 @@
+{
+  "trainer": "https://raw.githubusercontent.com/dcontessa/workshop-relay/main/public/providers/trainer",
+  "venue": "https://raw.githubusercontent.com/dcontessa/workshop-relay/main/public/providers/venue"
+}

@@ -1,0 +1,2 @@
+// First-party read-only capability. Worker state contains only the public event brief and catalogues.
+export function registerActions(actions){actions.register({name:'get_planning_state',description:'Read the event brief, current public catalogues, verified feasible plans and rejected offers. Call this before explaining a plan.',effect:'read',inputSchema:{type:'object',properties:{},additionalProperties:false},execute:()=>structuredClone(self.workshopState)});}

@@ -1,0 +1,35 @@
+{
+  "brand": "Workshop Relay",
+  "presentation": {
+    "mode": "none"
+  },
+  "networks": [
+    {
+      "name": "workshop_relay",
+      "front_man": "coordinator",
+      "hocon": "./workshop_relay.network.json"
+    }
+  ],
+  "llm_router": {
+    "base_url": "https://dcontessa.github.io/workshop-relay/__browser-inference/v1",
+    "mock": false,
+    "byok_router": "https://dcontessa.github.io/workshop-relay/__browser-inference/v1"
+  },
+  "allowed_peers": [
+    "https://raw.githubusercontent.com",
+    "https://raw.githubusercontent.com"
+  ],
+  "peer_policy": {
+    "mode": "closed"
+  },
+  "deployment": {
+    "mode": "static"
+  },
+  "actions": {
+    "version": 1,
+    "module": "./site-actions.js",
+    "agentTools": [
+      "get_planning_state"
+    ]
+  }
+}

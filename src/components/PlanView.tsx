@@ -1,0 +1,13 @@
+import { Check,ChevronRight,Plus,ArrowRight } from 'lucide-react';
+import { money,type Plan,type Brief,type Rejection } from '../domain/planning';
+export function PlanView({plan,brief,onReview,onCompare,previous}:{plan:Plan;brief:Brief;onReview:()=>void;onCompare:()=>void;previous?:Plan}){
+ return <div className="plan-grid"><div className="offers">
+  {[plan.trainer,plan.venue].map((o,i)=><article key={o.id} className="offer-row"><div className="monogram">{o.kind==='trainer'?'FA':'CG'}</div><div className="offer-copy"><span className="role-label">{o.kind}</span><h3>{o.kind==='trainer'?o.provider:o.title==='Studio One'?o.provider:o.title}</h3><p>{o.kind==='trainer'?`${o.title} · up to ${o.capacity} people`:`${o.title} · ${o.capacity} people${o.facilities.includes('step-free')?' · step-free':''}`}</p></div><strong className="offer-price">{money(o.priceMinor+o.feesMinor)}</strong></article>)}
+  <button className="outline compare" onClick={onCompare}><Plus size={16}/>Compare alternatives</button>
+ </div><aside className="budget-panel"><h3>Plan total</h3><div className="total">{money(plan.totalMinor)}</div><p>{money(brief.budgetMinor-plan.totalMinor)} within budget</p><div className="budget-track"><div style={{width:`${Math.min(100,plan.totalMinor/brief.budgetMinor*100)}%`}}/></div><dl><div><dt>Training</dt><dd>{money(plan.trainer.priceMinor+plan.trainer.feesMinor)}</dd></div><div><dt>Venue</dt><dd>{money(plan.venue.priceMinor+plan.venue.feesMinor)}</dd></div></dl><button className="light" onClick={onReview}>Review & save plan<ChevronRight size={18}/></button></aside>
+ {previous&&previous.id!==plan.id&&<div className="change-note"><ArrowRight size={18}/><span><strong>{previous.venue.title} → {plan.venue.title}.</strong> {plan.totalMinor>=previous.totalMinor?'+':''}{money(plan.totalMinor-previous.totalMinor)}. Capacity, date and selected requirements still fit.</span></div>}
+ </div>;
+}
+export function Alternatives({plans,rejects,selected,onSelect}:{plans:Plan[];rejects:Rejection[];selected:string;onSelect:(id:string)=>void}){
+ return <><div className="alternatives">{plans.map(p=><button key={p.id} className={'alternative '+(p.id===selected?'chosen':'')} onClick={()=>onSelect(p.id)}><span><strong>{p.trainer.title}</strong><small>{p.venue.title} · {p.venue.capacity} people</small></span><span>{money(p.totalMinor)}{p.id===selected&&<Check size={18}/>}</span></button>)}</div>{rejects.length>0&&<details className="rejections"><summary>Why other offers do not fit</summary>{rejects.map(r=><p key={r.id}><strong>{r.title}:</strong> {r.reasons.join('; ')}</p>)}</details>}</>;
+}

@@ -10,3 +10,8 @@ public/browser-model.bundle.js
 .devpost-hackathon-state.json
 docs/hackathon-build/
 output/design/
+.playwright-cli/
+output/playwright/
+output/demo/*.webm
+output/demo/*.mp4
+devpost-*.md

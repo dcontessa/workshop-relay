@@ -1,0 +1,899 @@
+{
+  "brief": {
+    "topic": "Practical AI at work",
+    "attendees": 30,
+    "date": "2026-12-17",
+    "location": "Kuala Lumpur",
+    "budgetMinor": 600000,
+    "stepFree": true,
+    "projector": true
+  },
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/dcontessa/workshop-relay/main/public/providers/trainer/catalogue.json",
+      "fetchedAt": "2026-11-23T00:06:00.608Z",
+      "catalogue": {
+        "schemaVersion": 1,
+        "providerId": "fieldwork",
+        "version": 1,
+        "fictionalFixture": true,
+        "publishedAt": "2026-11-23T00:00:00Z",
+        "validUntil": "2027-02-01T00:00:00Z",
+        "offers": [
+          {
+            "id": "T1",
+            "kind": "trainer",
+            "title": "Practical AI workshop",
+            "provider": "Fieldwork Academy",
+            "description": "Hands-on tools for everyday work",
+            "capacity": 32,
+            "dates": [
+              "2026-12-17",
+              "2026-12-18"
+            ],
+            "location": "Kuala Lumpur",
+            "topics": [
+              "Practical AI at work"
+            ],
+            "facilities": [],
+            "currency": "MYR",
+            "priceMinor": 280000,
+            "feesMinor": 0,
+            "priceBasis": "whole-workshop",
+            "available": true
+          },
+          {
+            "id": "T2",
+            "kind": "trainer",
+            "title": "AI for bigger teams",
+            "provider": "Fieldwork Academy",
+            "description": "A facilitated workshop for larger groups",
+            "capacity": 40,
+            "dates": [
+              "2026-12-17"
+            ],
+            "location": "Kuala Lumpur",
+            "topics": [
+              "Practical AI at work",
+              "Team communication"
+            ],
+            "facilities": [],
+            "currency": "MYR",
+            "priceMinor": 320000,
+            "feesMinor": 0,
+            "priceBasis": "whole-workshop",
+            "available": true
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/dcontessa/workshop-relay/main/public/providers/venue/catalogue.json",
+      "fetchedAt": "2026-11-23T00:06:00.607Z",
+      "catalogue": {
+        "schemaVersion": 1,
+        "providerId": "common-ground",
+        "version": 1,
+        "fictionalFixture": true,
+        "publishedAt": "2026-11-23T00:00:00Z",
+        "validUntil": "2027-02-01T00:00:00Z",
+        "offers": [
+          {
+            "id": "V1",
+            "kind": "venue",
+            "title": "Studio One",
+            "provider": "Common Ground Studio",
+            "description": "A bright, flexible workshop space",
+            "capacity": 40,
+            "dates": [
+              "2026-12-17"
+            ],
+            "location": "Kuala Lumpur",
+            "topics": [],
+            "facilities": [
+              "step-free",
+              "projector"
+            ],
+            "currency": "MYR",
+            "priceMinor": 150000,
+            "feesMinor": 0,
+            "priceBasis": "whole-workshop",
+            "available": true
+          },
+          {
+            "id": "V2",
+            "kind": "venue",
+            "title": "The Garden Room",
+            "provider": "Common Ground Studio",
+            "description": "A quieter space with room to collaborate",
+            "capacity": 35,
+            "dates": [
+              "2026-12-17",
+              "2026-12-18"
+            ],
+            "location": "Kuala Lumpur",
+            "topics": [],
+            "facilities": [
+              "step-free",
+              "projector"
+            ],
+            "currency": "MYR",
+            "priceMinor": 190000,
+            "feesMinor": 0,
+            "priceBasis": "whole-workshop",
+            "available": true
+          },
+          {
+            "id": "V3",
+            "kind": "venue",
+            "title": "The Meeting Loft",
+            "provider": "Common Ground Studio",
+            "description": "A compact room for smaller groups",
+            "capacity": 20,
+            "dates": [
+              "2026-12-17"
+            ],
+            "location": "Kuala Lumpur",
+            "topics": [],
+            "facilities": [
+              "projector"
+            ],
+            "currency": "MYR",
+            "priceMinor": 120000,
+            "feesMinor": 0,
+            "priceBasis": "whole-workshop",
+            "available": true
+          }
+        ]
+      }
+    }
+  ],
+  "evaluation": {
+    "plans": [
+      {
+        "id": "T1:V1",
+        "trainer": {
+          "id": "T1",
+          "kind": "trainer",
+          "title": "Practical AI workshop",
+          "provider": "Fieldwork Academy",
+          "description": "Hands-on tools for everyday work",
+          "capacity": 32,
+          "dates": [
+            "2026-12-17",
+            "2026-12-18"
+          ],
+          "location": "Kuala Lumpur",
+          "topics": [
+            "Practical AI at work"
+          ],
+          "facilities": [],
+          "currency": "MYR",
+          "priceMinor": 280000,
+          "feesMinor": 0,
+          "priceBasis": "whole-workshop",
+          "available": true
+        },
+        "venue": {
+          "id": "V1",
+          "kind": "venue",
+          "title": "Studio One",
+          "provider": "Common Ground Studio",
+          "description": "A bright, flexible workshop space",
+          "capacity": 40,
+          "dates": [
+            "2026-12-17"
+          ],
+          "location": "Kuala Lumpur",
+          "topics": [],
+          "facilities": [
+            "step-free",
+            "projector"
+          ],
+          "currency": "MYR",
+          "priceMinor": 150000,
+          "feesMinor": 0,
+          "priceBasis": "whole-workshop",
+          "available": true
+        },
+        "totalMinor": 430000,
+        "briefKey": "{\"topic\":\"Practical AI at work\",\"attendees\":30,\"date\":\"2026-12-17\",\"location\":\"Kuala Lumpur\",\"budgetMinor\":600000,\"stepFree\":true,\"projector\":true}",
+        "sourceKey": "[{\"url\":\"https://raw.githubusercontent.com/dcontessa/workshop-relay/main/public/providers/trainer/catalogue.json\",\"version\":1,\"data\":{\"schemaVersion\":1,\"providerId\":\"fieldwork\",\"version\":1,\"fictionalFixture\":true,\"publishedAt\":\"2026-11-23T00:00:00Z\",\"validUntil\":\"2027-02-01T00:00:00Z\",\"offers\":[{\"id\":\"T1\",\"kind\":\"trainer\",\"title\":\"Practical AI workshop\",\"provider\":\"Fieldwork Academy\",\"description\":\"Hands-on tools for everyday work\",\"capacity\":32,\"dates\":[\"2026-12-17\",\"2026-12-18\"],\"location\":\"Kuala Lumpur\",\"topics\":[\"Practical AI at work\"],\"facilities\":[],\"currency\":\"MYR\",\"priceMinor\":280000,\"feesMinor\":0,\"priceBasis\":\"whole-workshop\",\"available\":true},{\"id\":\"T2\",\"kind\":\"trainer\",\"title\":\"AI for bigger teams\",\"provider\":\"Fieldwork Academy\",\"description\":\"A facilitated workshop for larger groups\",\"capacity\":40,\"dates\":[\"2026-12-17\"],\"location\":\"Kuala Lumpur\",\"topics\":[\"Practical AI at work\",\"Team communication\"],\"facilities\":[],\"currency\":\"MYR\",\"priceMinor\":320000,\"feesMinor\":0,\"priceBasis\":\"whole-workshop\",\"available\":true}]}},{\"url\":\"https://raw.githubusercontent.com/dcontessa/workshop-relay/main/public/providers/venue/catalogue.json\",\"version\":1,\"data\":{\"schemaVersion\":1,\"providerId\":\"common-ground\",\"version\":1,\"fictionalFixture\":true,\"publishedAt\":\"2026-11-23T00:00:00Z\",\"validUntil\":\"2027-02-01T00:00:00Z\",\"offers\":[{\"id\":\"V1\",\"kind\":\"venue\",\"title\":\"Studio One\",\"provider\":\"Common Ground Studio\",\"description\":\"A bright, flexible workshop space\",\"capacity\":40,\"dates\":[\"2026-12-17\"],\"location\":\"Kuala Lumpur\",\"topics\":[],\"facilities\":[\"step-free\",\"projector\"],\"currency\":\"MYR\",\"priceMinor\":150000,\"feesMinor\":0,\"priceBasis\":\"whole-workshop\",\"available\":true},{\"id\":\"V2\",\"kind\":\"venue\",\"title\":\"The Garden Room\",\"provider\":\"Common Ground Studio\",\"description\":\"A quieter space with room to collaborate\",\"capacity\":35,\"dates\":[\"2026-12-17\",\"2026-12-18\"],\"location\":\"Kuala Lumpur\",\"topics\":[],\"facilities\":[\"step-free\",\"projector\"],\"currency\":\"MYR\",\"priceMinor\":190000,\"feesMinor\":0,\"priceBasis\":\"whole-workshop\",\"available\":true},{\"id\":\"V3\",\"kind\":\"venue\",\"title\":\"The Meeting Loft\",\"provider\":\"Common Ground Studio\",\"description\":\"A compact room for smaller groups\",\"capacity\":20,\"dates\":[\"2026-12-17\"],\"location\":\"Kuala Lumpur\",\"topics\":[],\"facilities\":[\"projector\"],\"currency\":\"MYR\",\"priceMinor\":120000,\"feesMinor\":0,\"priceBasis\":\"whole-workshop\",\"available\":true}]}}]"
+      },
+      {
+        "id": "T1:V2",
+        "trainer": {
+          "id": "T1",
+          "kind": "trainer",
+          "title": "Practical AI workshop",
+          "provider": "Fieldwork Academy",
+          "description": "Hands-on tools for everyday work",
+          "capacity": 32,
+          "dates": [
+            "2026-12-17",
+            "2026-12-18"
+          ],
+          "location": "Kuala Lumpur",
+          "topics": [
+            "Practical AI at work"
+          ],
+          "facilities": [],
+          "currency": "MYR",
+          "priceMinor": 280000,
+          "feesMinor": 0,
+          "priceBasis": "whole-workshop",
+          "available": true
+        },
+        "venue": {
+          "id": "V2",
+          "kind": "venue",
+          "title": "The Garden Room",
+          "provider": "Common Ground Studio",
+          "description": "A quieter space with room to collaborate",
+          "capacity": 35,
+          "dates": [
+            "2026-12-17",
+            "2026-12-18"
+          ],
+          "location": "Kuala Lumpur",
+          "topics": [],
+          "facilities": [
+            "step-free",
+            "projector"
+          ],
+          "currency": "MYR",
+          "priceMinor": 190000,
+          "feesMinor": 0,
+          "priceBasis": "whole-workshop",
+          "available": true
+        },
+        "totalMinor": 470000,
+        "briefKey": "{\"topic\":\"Practical AI at work\",\"attendees\":30,\"date\":\"2026-12-17\",\"location\":\"Kuala Lumpur\",\"budgetMinor\":600000,\"stepFree\":true,\"projector\":true}",
+        "sourceKey": "[{\"url\":\"https://raw.githubusercontent.com/dcontessa/workshop-relay/main/public/providers/trainer/catalogue.json\",\"version\":1,\"data\":{\"schemaVersion\":1,\"providerId\":\"fieldwork\",\"version\":1,\"fictionalFixture\":true,\"publishedAt\":\"2026-11-23T00:00:00Z\",\"validUntil\":\"2027-02-01T00:00:00Z\",\"offers\":[{\"id\":\"T1\",\"kind\":\"trainer\",\"title\":\"Practical AI workshop\",\"provider\":\"Fieldwork Academy\",\"description\":\"Hands-on tools for everyday work\",\"capacity\":32,\"dates\":[\"2026-12-17\",\"2026-12-18\"],\"location\":\"Kuala Lumpur\",\"topics\":[\"Practical AI at work\"],\"facilities\":[],\"currency\":\"MYR\",\"priceMinor\":280000,\"feesMinor\":0,\"priceBasis\":\"whole-workshop\",\"available\":true},{\"id\":\"T2\",\"kind\":\"trainer\",\"title\":\"AI for bigger teams\",\"provider\":\"Fieldwork Academy\",\"description\":\"A facilitated workshop for larger groups\",\"capacity\":40,\"dates\":[\"2026-12-17\"],\"location\":\"Kuala Lumpur\",\"topics\":[\"Practical AI at work\",\"Team communication\"],\"facilities\":[],\"currency\":\"MYR\",\"priceMinor\":320000,\"feesMinor\":0,\"priceBasis\":\"whole-workshop\",\"available\":true}]}},{\"url\":\"https://raw.githubusercontent.com/dcontessa/workshop-relay/main/public/providers/venue/catalogue.json\",\"version\":1,\"data\":{\"schemaVersion\":1,\"providerId\":\"common-ground\",\"version\":1,\"fictionalFixture\":true,\"publishedAt\":\"2026-11-23T00:00:00Z\",\"validUntil\":\"2027-02-01T00:00:00Z\",\"offers\":[{\"id\":\"V1\",\"kind\":\"venue\",\"title\":\"Studio One\",\"provider\":\"Common Ground Studio\",\"description\":\"A bright, flexible workshop space\",\"capacity\":40,\"dates\":[\"2026-12-17\"],\"location\":\"Kuala Lumpur\",\"topics\":[],\"facilities\":[\"step-free\",\"projector\"],\"currency\":\"MYR\",\"priceMinor\":150000,\"feesMinor\":0,\"priceBasis\":\"whole-workshop\",\"available\":true},{\"id\":\"V2\",\"kind\":\"venue\",\"title\":\"The Garden Room\",\"provider\":\"Common Ground Studio\",\"description\":\"A quieter space with room to collaborate\",\"capacity\":35,\"dates\":[\"2026-12-17\",\"2026-12-18\"],\"location\":\"Kuala Lumpur\",\"topics\":[],\"facilities\":[\"step-free\",\"projector\"],\"currency\":\"MYR\",\"priceMinor\":190000,\"feesMinor\":0,\"priceBasis\":\"whole-workshop\",\"available\":true},{\"id\":\"V3\",\"kind\":\"venue\",\"title\":\"The Meeting Loft\",\"provider\":\"Common Ground Studio\",\"description\":\"A compact room for smaller groups\",\"capacity\":20,\"dates\":[\"2026-12-17\"],\"location\":\"Kuala Lumpur\",\"topics\":[],\"facilities\":[\"projector\"],\"currency\":\"MYR\",\"priceMinor\":120000,\"feesMinor\":0,\"priceBasis\":\"whole-workshop\",\"available\":true}]}}]"
+      },
+      {
+        "id": "T2:V1",
+        "trainer": {
+          "id": "T2",
+          "kind": "trainer",
+          "title": "AI for bigger teams",
+          "provider": "Fieldwork Academy",
+          "description": "A facilitated workshop for larger groups",
+          "capacity": 40,
+          "dates": [
+            "2026-12-17"
+          ],
+          "location": "Kuala Lumpur",
+          "topics": [
+            "Practical AI at work",
+            "Team communication"
+          ],
+          "facilities": [],
+          "currency": "MYR",
+          "priceMinor": 320000,
+          "feesMinor": 0,
+          "priceBasis": "whole-workshop",
+          "available": true
+        },
+        "venue": {
+          "id": "V1",
+          "kind": "venue",
+          "title": "Studio One",
+          "provider": "Common Ground Studio",
+          "description": "A bright, flexible workshop space",
+          "capacity": 40,
+          "dates": [
+            "2026-12-17"
+          ],
+          "location": "Kuala Lumpur",
+          "topics": [],
+          "facilities": [
+            "step-free",
+            "projector"
+          ],
+          "currency": "MYR",
+          "priceMinor": 150000,
+          "feesMinor": 0,
+          "priceBasis": "whole-workshop",
+          "available": true
+        },
+        "totalMinor": 470000,
+        "briefKey": "{\"topic\":\"Practical AI at work\",\"attendees\":30,\"date\":\"2026-12-17\",\"location\":\"Kuala Lumpur\",\"budgetMinor\":600000,\"stepFree\":true,\"projector\":true}",
+        "sourceKey": "[{\"url\":\"https://raw.githubusercontent.com/dcontessa/workshop-relay/main/public/providers/trainer/catalogue.json\",\"version\":1,\"data\":{\"schemaVersion\":1,\"providerId\":\"fieldwork\",\"version\":1,\"fictionalFixture\":true,\"publishedAt\":\"2026-11-23T00:00:00Z\",\"validUntil\":\"2027-02-01T00:00:00Z\",\"offers\":[{\"id\":\"T1\",\"kind\":\"trainer\",\"title\":\"Practical AI workshop\",\"provider\":\"Fieldwork Academy\",\"description\":\"Hands-on tools for everyday work\",\"capacity\":32,\"dates\":[\"2026-12-17\",\"2026-12-18\"],\"location\":\"Kuala Lumpur\",\"topics\":[\"Practical AI at work\"],\"facilities\":[],\"currency\":\"MYR\",\"priceMinor\":280000,\"feesMinor\":0,\"priceBasis\":\"whole-workshop\",\"available\":true},{\"id\":\"T2\",\"kind\":\"trainer\",\"title\":\"AI for bigger teams\",\"provider\":\"Fieldwork Academy\",\"description\":\"A facilitated workshop for larger groups\",\"capacity\":40,\"dates\":[\"2026-12-17\"],\"location\":\"Kuala Lumpur\",\"topics\":[\"Practical AI at work\",\"Team communication\"],\"facilities\":[],\"currency\":\"MYR\",\"priceMinor\":320000,\"feesMinor\":0,\"priceBasis\":\"whole-workshop\",\"available\":true}]}},{\"url\":\"https://raw.githubusercontent.com/dcontessa/workshop-relay/main/public/providers/venue/catalogue.json\",\"version\":1,\"data\":{\"schemaVersion\":1,\"providerId\":\"common-ground\",\"version\":1,\"fictionalFixture\":true,\"publishedAt\":\"2026-11-23T00:00:00Z\",\"validUntil\":\"2027-02-01T00:00:00Z\",\"offers\":[{\"id\":\"V1\",\"kind\":\"venue\",\"title\":\"Studio One\",\"provider\":\"Common Ground Studio\",\"description\":\"A bright, flexible workshop space\",\"capacity\":40,\"dates\":[\"2026-12-17\"],\"location\":\"Kuala Lumpur\",\"topics\":[],\"facilities\":[\"step-free\",\"projector\"],\"currency\":\"MYR\",\"priceMinor\":150000,\"feesMinor\":0,\"priceBasis\":\"whole-workshop\",\"available\":true},{\"id\":\"V2\",\"kind\":\"venue\",\"title\":\"The Garden Room\",\"provider\":\"Common Ground Studio\",\"description\":\"A quieter space with room to collaborate\",\"capacity\":35,\"dates\":[\"2026-12-17\",\"2026-12-18\"],\"location\":\"Kuala Lumpur\",\"topics\":[],\"facilities\":[\"step-free\",\"projector\"],\"currency\":\"MYR\",\"priceMinor\":190000,\"feesMinor\":0,\"priceBasis\":\"whole-workshop\",\"available\":true},{\"id\":\"V3\",\"kind\":\"venue\",\"title\":\"The Meeting Loft\",\"provider\":\"Common Ground Studio\",\"description\":\"A compact room for smaller groups\",\"capacity\":20,\"dates\":[\"2026-12-17\"],\"location\":\"Kuala Lumpur\",\"topics\":[],\"facilities\":[\"projector\"],\"currency\":\"MYR\",\"priceMinor\":120000,\"feesMinor\":0,\"priceBasis\":\"whole-workshop\",\"available\":true}]}}]"
+      },
+      {
+        "id": "T2:V2",
+        "trainer": {
+          "id": "T2",
+          "kind": "trainer",
+          "title": "AI for bigger teams",
+          "provider": "Fieldwork Academy",
+          "description": "A facilitated workshop for larger groups",
+          "capacity": 40,
+          "dates": [
+            "2026-12-17"
+          ],
+          "location": "Kuala Lumpur",
+          "topics": [
+            "Practical AI at work",
+            "Team communication"
+          ],
+          "facilities": [],
+          "currency": "MYR",
+          "priceMinor": 320000,
+          "feesMinor": 0,
+          "priceBasis": "whole-workshop",
+          "available": true
+        },
+        "venue": {
+          "id": "V2",
+          "kind": "venue",
+          "title": "The Garden Room",
+          "provider": "Common Ground Studio",
+          "description": "A quieter space with room to collaborate",
+          "capacity": 35,
+          "dates": [
+            "2026-12-17",
+            "2026-12-18"
+          ],
+          "location": "Kuala Lumpur",
+          "topics": [],
+          "facilities": [
+            "step-free",
+            "projector"
+          ],
+          "currency": "MYR",
+          "priceMinor": 190000,
+          "feesMinor": 0,
+          "priceBasis": "whole-workshop",
+          "available": true
+        },
+        "totalMinor": 510000,
+        "briefKey": "{\"topic\":\"Practical AI at work\",\"attendees\":30,\"date\":\"2026-12-17\",\"location\":\"Kuala Lumpur\",\"budgetMinor\":600000,\"stepFree\":true,\"projector\":true}",
+        "sourceKey": "[{\"url\":\"https://raw.githubusercontent.com/dcontessa/workshop-relay/main/public/providers/trainer/catalogue.json\",\"version\":1,\"data\":{\"schemaVersion\":1,\"providerId\":\"fieldwork\",\"version\":1,\"fictionalFixture\":true,\"publishedAt\":\"2026-11-23T00:00:00Z\",\"validUntil\":\"2027-02-01T00:00:00Z\",\"offers\":[{\"id\":\"T1\",\"kind\":\"trainer\",\"title\":\"Practical AI workshop\",\"provider\":\"Fieldwork Academy\",\"description\":\"Hands-on tools for everyday work\",\"capacity\":32,\"dates\":[\"2026-12-17\",\"2026-12-18\"],\"location\":\"Kuala Lumpur\",\"topics\":[\"Practical AI at work\"],\"facilities\":[],\"currency\":\"MYR\",\"priceMinor\":280000,\"feesMinor\":0,\"priceBasis\":\"whole-workshop\",\"available\":true},{\"id\":\"T2\",\"kind\":\"trainer\",\"title\":\"AI for bigger teams\",\"provider\":\"Fieldwork Academy\",\"description\":\"A facilitated workshop for larger groups\",\"capacity\":40,\"dates\":[\"2026-12-17\"],\"location\":\"Kuala Lumpur\",\"topics\":[\"Practical AI at work\",\"Team communication\"],\"facilities\":[],\"currency\":\"MYR\",\"priceMinor\":320000,\"feesMinor\":0,\"priceBasis\":\"whole-workshop\",\"available\":true}]}},{\"url\":\"https://raw.githubusercontent.com/dcontessa/workshop-relay/main/public/providers/venue/catalogue.json\",\"version\":1,\"data\":{\"schemaVersion\":1,\"providerId\":\"common-ground\",\"version\":1,\"fictionalFixture\":true,\"publishedAt\":\"2026-11-23T00:00:00Z\",\"validUntil\":\"2027-02-01T00:00:00Z\",\"offers\":[{\"id\":\"V1\",\"kind\":\"venue\",\"title\":\"Studio One\",\"provider\":\"Common Ground Studio\",\"description\":\"A bright, flexible workshop space\",\"capacity\":40,\"dates\":[\"2026-12-17\"],\"location\":\"Kuala Lumpur\",\"topics\":[],\"facilities\":[\"step-free\",\"projector\"],\"currency\":\"MYR\",\"priceMinor\":150000,\"feesMinor\":0,\"priceBasis\":\"whole-workshop\",\"available\":true},{\"id\":\"V2\",\"kind\":\"venue\",\"title\":\"The Garden Room\",\"provider\":\"Common Ground Studio\",\"description\":\"A quieter space with room to collaborate\",\"capacity\":35,\"dates\":[\"2026-12-17\",\"2026-12-18\"],\"location\":\"Kuala Lumpur\",\"topics\":[],\"facilities\":[\"step-free\",\"projector\"],\"currency\":\"MYR\",\"priceMinor\":190000,\"feesMinor\":0,\"priceBasis\":\"whole-workshop\",\"available\":true},{\"id\":\"V3\",\"kind\":\"venue\",\"title\":\"The Meeting Loft\",\"provider\":\"Common Ground Studio\",\"description\":\"A compact room for smaller groups\",\"capacity\":20,\"dates\":[\"2026-12-17\"],\"location\":\"Kuala Lumpur\",\"topics\":[],\"facilities\":[\"projector\"],\"currency\":\"MYR\",\"priceMinor\":120000,\"feesMinor\":0,\"priceBasis\":\"whole-workshop\",\"available\":true}]}}]"
+      }
+    ],
+    "rejects": [
+      {
+        "id": "V3",
+        "title": "The Meeting Loft",
+        "reasons": [
+          "Capacity 20 is below 30 attendees",
+          "Step-free access is not available"
+        ]
+      }
+    ],
+    "shortfall": 0,
+    "error": ""
+  },
+  "agent": {
+    "live": {
+      "realCalls": 9,
+      "peerRuns": 2
+    },
+    "trace": [
+      {
+        "phase": "start",
+        "kind": "compile",
+        "status": "running",
+        "origin": "dcontessa.github.io",
+        "wall": 1795392380632
+      },
+      {
+        "phase": "note",
+        "kind": "action_catalog",
+        "wall": 1795392381784
+      },
+      {
+        "phase": "end",
+        "kind": "compile",
+        "status": "ok",
+        "network": "workshop_relay",
+        "origin": "dcontessa.github.io",
+        "durationMs": 1152.5,
+        "wall": 1795392381785
+      },
+      {
+        "phase": "start",
+        "kind": "run",
+        "status": "running",
+        "origin": "dcontessa.github.io",
+        "wall": 1795392381785
+      },
+      {
+        "phase": "start",
+        "kind": "agent",
+        "status": "running",
+        "network": "workshop_relay",
+        "agent": "coordinator",
+        "origin": "dcontessa.github.io",
+        "wall": 1795392381785
+      },
+      {
+        "phase": "start",
+        "kind": "model_call",
+        "status": "running",
+        "origin": "dcontessa.github.io",
+        "model": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+        "wall": 1795392381787
+      },
+      {
+        "phase": "end",
+        "kind": "model_call",
+        "status": "ok",
+        "origin": "dcontessa.github.io",
+        "model": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+        "verifiedReal": true,
+        "durationMs": 3231.800000011921,
+        "wall": 1795392385019
+      },
+      {
+        "phase": "start",
+        "kind": "tool",
+        "status": "running",
+        "origin": "dcontessa.github.io",
+        "wall": 1795392385020
+      },
+      {
+        "phase": "end",
+        "kind": "tool",
+        "status": "ok",
+        "origin": "dcontessa.github.io",
+        "durationMs": 1.800000011920929,
+        "wall": 1795392385022
+      },
+      {
+        "phase": "note",
+        "kind": "tool_result",
+        "origin": "dcontessa.github.io",
+        "wall": 1795392385022
+      },
+      {
+        "phase": "start",
+        "kind": "model_call",
+        "status": "running",
+        "origin": "dcontessa.github.io",
+        "model": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+        "wall": 1795392385022
+      },
+      {
+        "phase": "end",
+        "kind": "model_call",
+        "status": "ok",
+        "origin": "dcontessa.github.io",
+        "model": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+        "verifiedReal": true,
+        "durationMs": 2265,
+        "wall": 1795392387287
+      },
+      {
+        "phase": "start",
+        "kind": "tool",
+        "status": "running",
+        "origin": "dcontessa.github.io",
+        "wall": 1795392387287
+      },
+      {
+        "phase": "start",
+        "kind": "remote_fetch",
+        "status": "running",
+        "origin": "dcontessa.github.io",
+        "peerOrigin": "raw.githubusercontent.com",
+        "wall": 1795392387288
+      },
+      {
+        "phase": "end",
+        "kind": "remote_fetch",
+        "status": "ok",
+        "network": "trainer",
+        "origin": "dcontessa.github.io",
+        "peerOrigin": "raw.githubusercontent.com",
+        "durationMs": 875.5,
+        "wall": 1795392388164
+      },
+      {
+        "phase": "start",
+        "kind": "remote_call",
+        "status": "running",
+        "network": "trainer",
+        "origin": "dcontessa.github.io",
+        "peerOrigin": "raw.githubusercontent.com",
+        "method": "fetch-and-run-locally",
+        "wall": 1795392388164
+      },
+      {
+        "phase": "start",
+        "kind": "agent",
+        "status": "running",
+        "network": "trainer",
+        "agent": "trainer_advisor",
+        "origin": "raw.githubusercontent.com",
+        "wall": 1795392388164
+      },
+      {
+        "phase": "start",
+        "kind": "model_call",
+        "status": "running",
+        "origin": "raw.githubusercontent.com",
+        "model": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+        "wall": 1795392388164
+      },
+      {
+        "phase": "end",
+        "kind": "model_call",
+        "status": "ok",
+        "origin": "raw.githubusercontent.com",
+        "model": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+        "verifiedReal": true,
+        "durationMs": 926.8000000119209,
+        "wall": 1795392389091
+      },
+      {
+        "phase": "end",
+        "kind": "agent",
+        "status": "ok",
+        "network": "trainer",
+        "agent": "trainer_advisor",
+        "origin": "raw.githubusercontent.com",
+        "durationMs": 926.8999999761581,
+        "wall": 1795392389091
+      },
+      {
+        "phase": "note",
+        "kind": "presentation_proposal",
+        "network": "trainer",
+        "agent": "trainer_advisor",
+        "origin": "raw.githubusercontent.com",
+        "wall": 1795392389091
+      },
+      {
+        "phase": "note",
+        "kind": "agent_result",
+        "network": "trainer",
+        "agent": "trainer_advisor",
+        "origin": "raw.githubusercontent.com",
+        "wall": 1795392389091
+      },
+      {
+        "phase": "end",
+        "kind": "remote_call",
+        "status": "ok",
+        "network": "trainer",
+        "origin": "dcontessa.github.io",
+        "peerOrigin": "raw.githubusercontent.com",
+        "method": "fetch-and-run-locally",
+        "durationMs": 927.5,
+        "wall": 1795392389091
+      },
+      {
+        "phase": "end",
+        "kind": "tool",
+        "status": "ok",
+        "origin": "dcontessa.github.io",
+        "durationMs": 1804.3999999761581,
+        "wall": 1795392389091
+      },
+      {
+        "phase": "note",
+        "kind": "tool_result",
+        "origin": "dcontessa.github.io",
+        "wall": 1795392389091
+      },
+      {
+        "phase": "start",
+        "kind": "model_call",
+        "status": "running",
+        "origin": "dcontessa.github.io",
+        "model": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+        "wall": 1795392389091
+      },
+      {
+        "phase": "end",
+        "kind": "model_call",
+        "status": "ok",
+        "origin": "dcontessa.github.io",
+        "model": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+        "verifiedReal": true,
+        "durationMs": 4128.599999964237,
+        "wall": 1795392393220
+      },
+      {
+        "phase": "start",
+        "kind": "tool",
+        "status": "running",
+        "origin": "dcontessa.github.io",
+        "wall": 1795392393220
+      },
+      {
+        "phase": "start",
+        "kind": "remote_fetch",
+        "status": "running",
+        "origin": "dcontessa.github.io",
+        "peerOrigin": "raw.githubusercontent.com",
+        "wall": 1795392393220
+      },
+      {
+        "phase": "end",
+        "kind": "remote_fetch",
+        "status": "ok",
+        "network": "venue",
+        "origin": "dcontessa.github.io",
+        "peerOrigin": "raw.githubusercontent.com",
+        "durationMs": 875,
+        "wall": 1795392394095
+      },
+      {
+        "phase": "start",
+        "kind": "remote_call",
+        "status": "running",
+        "network": "venue",
+        "origin": "dcontessa.github.io",
+        "peerOrigin": "raw.githubusercontent.com",
+        "method": "fetch-and-run-locally",
+        "wall": 1795392394096
+      },
+      {
+        "phase": "start",
+        "kind": "agent",
+        "status": "running",
+        "network": "venue",
+        "agent": "venue_advisor",
+        "origin": "raw.githubusercontent.com",
+        "wall": 1795392394096
+      },
+      {
+        "phase": "start",
+        "kind": "model_call",
+        "status": "running",
+        "origin": "raw.githubusercontent.com",
+        "model": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+        "wall": 1795392394096
+      },
+      {
+        "phase": "end",
+        "kind": "model_call",
+        "status": "ok",
+        "origin": "raw.githubusercontent.com",
+        "model": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+        "verifiedReal": true,
+        "durationMs": 910.6999999880791,
+        "wall": 1795392395006
+      },
+      {
+        "phase": "end",
+        "kind": "agent",
+        "status": "ok",
+        "network": "venue",
+        "agent": "venue_advisor",
+        "origin": "raw.githubusercontent.com",
+        "durationMs": 910.8000000119209,
+        "wall": 1795392395006
+      },
+      {
+        "phase": "note",
+        "kind": "presentation_proposal",
+        "network": "venue",
+        "agent": "venue_advisor",
+        "origin": "raw.githubusercontent.com",
+        "wall": 1795392395007
+      },
+      {
+        "phase": "note",
+        "kind": "agent_result",
+        "network": "venue",
+        "agent": "venue_advisor",
+        "origin": "raw.githubusercontent.com",
+        "wall": 1795392395007
+      },
+      {
+        "phase": "end",
+        "kind": "remote_call",
+        "status": "ok",
+        "network": "venue",
+        "origin": "dcontessa.github.io",
+        "peerOrigin": "raw.githubusercontent.com",
+        "method": "fetch-and-run-locally",
+        "durationMs": 911.0999999642372,
+        "wall": 1795392395007
+      },
+      {
+        "phase": "end",
+        "kind": "tool",
+        "status": "ok",
+        "origin": "dcontessa.github.io",
+        "durationMs": 1786.5,
+        "wall": 1795392395007
+      },
+      {
+        "phase": "note",
+        "kind": "tool_result",
+        "origin": "dcontessa.github.io",
+        "wall": 1795392395007
+      },
+      {
+        "phase": "start",
+        "kind": "model_call",
+        "status": "running",
+        "origin": "dcontessa.github.io",
+        "model": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+        "wall": 1795392395007
+      },
+      {
+        "phase": "end",
+        "kind": "model_call",
+        "status": "ok",
+        "origin": "dcontessa.github.io",
+        "model": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+        "verifiedReal": true,
+        "durationMs": 5858.800000011921,
+        "wall": 1795392400865
+      },
+      {
+        "phase": "start",
+        "kind": "tool",
+        "status": "running",
+        "origin": "dcontessa.github.io",
+        "wall": 1795392400866
+      },
+      {
+        "phase": "start",
+        "kind": "agent",
+        "status": "running",
+        "network": "workshop_relay",
+        "agent": "constraints_reviewer",
+        "origin": "dcontessa.github.io",
+        "wall": 1795392400866
+      },
+      {
+        "phase": "start",
+        "kind": "model_call",
+        "status": "running",
+        "origin": "dcontessa.github.io",
+        "model": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+        "wall": 1795392400866
+      },
+      {
+        "phase": "end",
+        "kind": "model_call",
+        "status": "ok",
+        "origin": "dcontessa.github.io",
+        "model": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+        "verifiedReal": true,
+        "durationMs": 1050.8999999761581,
+        "wall": 1795392401917
+      },
+      {
+        "phase": "start",
+        "kind": "tool",
+        "status": "running",
+        "origin": "dcontessa.github.io",
+        "wall": 1795392401917
+      },
+      {
+        "phase": "end",
+        "kind": "tool",
+        "status": "ok",
+        "origin": "dcontessa.github.io",
+        "durationMs": 0.10000002384185791,
+        "wall": 1795392401917
+      },
+      {
+        "phase": "note",
+        "kind": "tool_result",
+        "origin": "dcontessa.github.io",
+        "wall": 1795392401917
+      },
+      {
+        "phase": "start",
+        "kind": "model_call",
+        "status": "running",
+        "origin": "dcontessa.github.io",
+        "model": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+        "wall": 1795392401917
+      },
+      {
+        "phase": "end",
+        "kind": "model_call",
+        "status": "ok",
+        "origin": "dcontessa.github.io",
+        "model": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+        "verifiedReal": true,
+        "durationMs": 2374.099999964237,
+        "wall": 1795392404291
+      },
+      {
+        "phase": "end",
+        "kind": "agent",
+        "status": "ok",
+        "network": "workshop_relay",
+        "agent": "constraints_reviewer",
+        "origin": "dcontessa.github.io",
+        "durationMs": 3425.399999976158,
+        "wall": 1795392404291
+      },
+      {
+        "phase": "note",
+        "kind": "presentation_proposal",
+        "network": "workshop_relay",
+        "agent": "constraints_reviewer",
+        "origin": "dcontessa.github.io",
+        "wall": 1795392404291
+      },
+      {
+        "phase": "note",
+        "kind": "agent_result",
+        "network": "workshop_relay",
+        "agent": "constraints_reviewer",
+        "origin": "dcontessa.github.io",
+        "wall": 1795392404291
+      },
+      {
+        "phase": "end",
+        "kind": "tool",
+        "status": "ok",
+        "origin": "dcontessa.github.io",
+        "durationMs": 3425.599999964237,
+        "wall": 1795392404291
+      },
+      {
+        "phase": "note",
+        "kind": "tool_result",
+        "origin": "dcontessa.github.io",
+        "wall": 1795392404291
+      },
+      {
+        "phase": "start",
+        "kind": "model_call",
+        "status": "running",
+        "origin": "dcontessa.github.io",
+        "model": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+        "wall": 1795392404291
+      },
+      {
+        "phase": "end",
+        "kind": "model_call",
+        "status": "ok",
+        "origin": "dcontessa.github.io",
+        "model": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+        "verifiedReal": true,
+        "durationMs": 9016.800000011921,
+        "wall": 1795392413308
+      },
+      {
+        "phase": "end",
+        "kind": "agent",
+        "status": "ok",
+        "network": "workshop_relay",
+        "agent": "coordinator",
+        "origin": "dcontessa.github.io",
+        "durationMs": 31522.600000023842,
+        "wall": 1795392413308
+      },
+      {
+        "phase": "note",
+        "kind": "presentation_proposal",
+        "network": "workshop_relay",
+        "agent": "coordinator",
+        "origin": "dcontessa.github.io",
+        "wall": 1795392413308
+      },
+      {
+        "phase": "note",
+        "kind": "agent_result",
+        "network": "workshop_relay",
+        "agent": "coordinator",
+        "origin": "dcontessa.github.io",
+        "wall": 1795392413308
+      },
+      {
+        "phase": "end",
+        "kind": "run",
+        "status": "ok",
+        "origin": "dcontessa.github.io",
+        "durationMs": 31523.30000001192,
+        "wall": 1795392413308
+      }
+    ]
+  },
+  "generatedAt": "2026-11-23T00:07:05.046Z"
+}

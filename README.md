@@ -34,6 +34,8 @@ npm run check
 npm run build
 ```
 
+See [verification and screenshots](QA_REPORT.md) for the real public-browser run and tested failure paths.
+
 ## How it works
 
 The public `agent-manifest.json` resolves the `workshop_relay` network. Its coordinator delegates to a local constraints reviewer and two exact remote network URLs. The browser fetches each peer manifest and network, checks consent and executes the graph locally with the caller's inference router. There is no remote agent-execution endpoint.

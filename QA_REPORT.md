@@ -48,6 +48,8 @@ No high-confidence credential pattern was found in tracked files. The generic as
 
 ## Submission state
 
-Devpost overview, story, technology tags, public app/repository links and additional information were saved. The required site screenshot uploaded successfully; a thumbnail upload also completed in the UI. The finalization screen still showed DRAFT, 3/5 steps done. The video field is intentionally empty and the terms checkbox was left unchecked. Optional gallery uploads and a final thumbnail readback could not be completed after browser control became unavailable.
+Devpost overview, story, technology tags, public app/repository links and additional information were saved. On 27 November 2026, six Project Media images were uploaded, captioned and ordered: working plan, user journey, cancellation recovery, budget safeguard, browser execution evidence and product roadmap. Reopening Project details verified all six persisted captions and their order; the project preview displayed a six-image carousel. The required Additional info screenshot and Project overview thumbnail were also verified. Sources and captions are in `docs/submission-media/README.md`.
+
+The challenge entry still shows DRAFT, 3/5 steps done, and the preview labels it INCOMPLETE SUBMISSION. The video field remains empty and the terms checkbox was left unchecked. There is no YouTube upload. `ffprobe` confirms the local supporting walkthrough is 71.8 seconds with a video stream only and no audio.
 
 A silent recorded walkthrough and a cue sheet are prepared locally. The entrant must supply their own explanation and a public video URL. No claim of a completed Devpost submission is made.
